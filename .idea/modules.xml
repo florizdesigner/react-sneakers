@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/REACT-NEW.iml" filepath="$PROJECT_DIR$/.idea/REACT-NEW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/react-sneakers.iml" filepath="$PROJECT_DIR$/.idea/react-sneakers.iml" />
     </modules>
   </component>
 </project>
