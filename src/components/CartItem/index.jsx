@@ -7,7 +7,7 @@ const CartItem = (props) => {
                 <img className='mr-20'
                      width={70}
                      height={70}
-                     src='/img/sneakers/'
+                     src={'/img/sneakers/' + props.imageLink}
                      alt='sneakers'/>
                 <div className='mr-20'>
                     <p className='mb-5'>{props.name}</p>

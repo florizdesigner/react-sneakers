@@ -6,9 +6,9 @@ const CardItem = (props) => {
             <div className='favourite'>
                 <img src={(props.like) ? '/img/btn-liked.svg' : '/img/btn-unliked.svg'} alt='unliked'/>
             </div>
-            <img width={133} height={112} src={props.image}
-                 alt={props.name}/>
-            <h5>{props.name}</h5>
+            <img width={133} height={112} src={props.imageUrl}
+                 alt={props.title}/>
+            <h5>{props.title}</h5>
             <div className='d-flex justify-between align-center'>
                 <div className='d-flex flex-column cardBottom'>
                     <span className='text-uppercase'>Цена:</span>

@@ -1,5 +1,5 @@
 import React from 'react';
-import CartItem from './CartItem';
+import CartItem from '../CartItem/CartItem';
 
 const Drawer = () => {
     return (
@@ -9,10 +9,10 @@ const Drawer = () => {
 
                 <div className='items'>
                     <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'1.jpg'}/>
-                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'1.jpg'}/>
-                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'1.jpg'}/>
-                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'1.jpg'}/>
-                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'1.jpg'}/>
+                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'2.jpg'}/>
+                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'3.jpg'}/>
+                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'4.jpg'}/>
+                    <CartItem name='Мужские Кроссовки Nike Air Max 270' price='12 990' imageLink={'5.jpg'}/>
                 </div>
 
                 <div className='cartTotalBlock'>
